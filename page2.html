@@ -7,10 +7,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css"> <!-- modif -->
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css"> <!-- modif -->
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css"> <!-- modif -->
 
 
 	<script src="./js/jquery-2.1.0.js"></script> <!-- modif -->
@@ -45,7 +45,7 @@
 							<li>
 							</li>
 							<li>
-								<a href="page2.html">page2 &gt;</a>
+								<a href="page2.html">Contact</a> <!-- modif -->
 							</li>
 						</ul>
 					</div>
@@ -77,25 +77,25 @@
 					<div class="col-sm-6">
 						<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label>
+								<label for="name"> <!-- modif -->
 									Nom
 								</label>
 								<input id="name" class="form-control" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="email"><!-- modif -->
 									Adresse email
 								</label>
 								<input id="email" class="form-control" type="email" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="form_control"> <!-- modif -->
 									Comment nous avez-vous connu ?
 								</label>
 								<input class="form-control" type="email" required id="input_504" />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="form-control"> <!-- modif -->
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 							</div>
@@ -114,35 +114,35 @@
 		</div>
 		<!-- bloc-7 END -->
 		<!-- ScrollToTop Button -->
-		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+		<!-- <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a> --> <!-- modif -->
 		<!-- ScrollToTop Button END-->
 		<!-- Footer - bloc-8 -->
 		<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
-						<p class="text-center white">
+						<p class="text-center black">
 							Agence La Panthère - Agence web basée à Lyon.<br>
 						</p>
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social" href="index.html" title="lien twitter La Penthère"><span class="fa fa-twitter icon-md"></span></a> <!-- modif -->
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social" href="index.html" title="lien facebook La Penthère"><span class="fa fa-facebook icon-md"></span></a> <!-- modif -->
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social" href="index.html" title="lien dribbble La Penthère"><span class="fa fa-dribbble icon-md"></span></a> <!-- modif -->
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+									<a class="social" href="index.html" title="lien instagram La Penthère"><span class="fa fa-instagram icon-md"></span></a> <!-- modif -->
 								</div>
 							</div>
 						</div>
